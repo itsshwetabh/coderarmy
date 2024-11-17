@@ -187,7 +187,7 @@ display:none;
 .edu{
     display: flex;
     gap:5vw;
-    margin-top: 40px;;
+    margin-top: 40px;
     
 }
 
@@ -201,13 +201,24 @@ a{
     text-decoration: none;
 }
 
+.form{
+    gap:5vw;
+    justify-content: center;
+    align-items: center;
 
+}
+.formcontent{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @keyframes jump {
     0%, 100% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-30px);
+      transform: translateY(-20px);
     }
   }
 
@@ -227,6 +238,21 @@ a{
         /* width:50%; */
         transform:translateX(0);
     }  
+    .aboutsection{
+
+        width:auto;
+        margin-top:60vw;
+ 
+    }
+    .img1 , .img2{
+        left:15vw;
+    }
+    .edu{
+        flex-direction: column;
+    }
+    .img2{
+        scale:5vw;
+    }
 }
 
 .section1 {
